@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Italiana";
+  src: url("/assets/fonts/Italiana-Regular.woff2") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LaBelle";
+  src: url("/assets/fonts/LaBelleAurore-Regular.woff2") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NotoSans";
+  src: url("/assets/fonts/NotoSans-VariableFont_wdth,wght.woff2") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.header {
+    padding: 30px 30px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    font-weight: 400;
+    font-family: "Italiana";
+    font-size: 30px;
+}
+
+.cart-image {
+    width: 50px;
+}
