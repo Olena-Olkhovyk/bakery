@@ -1,4 +1,4 @@
-<header class="header">
+<header class="header site-container">
     <div class="header-container">
         <div>
              <p class="logo-title">BAKERY GOODS</p>
