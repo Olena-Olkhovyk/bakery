@@ -26,6 +26,10 @@
   padding: 30px 30px 0;
 }
 
+.content-container {
+  padding: 0 30px;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -65,7 +69,37 @@
   gap:35px;
 }
 
-.footer-container {
+.footer-content {
   display: flex;
   gap:147px
 }
+
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-title {
+  font-family: 'LaBelle';
+  font-size: 60px;
+}
+
+.hero-btn {
+  color: white;
+  background-color: black;
+  font-size: 30px;
+  outline: none;
+  font-family: 'NotoSans';
+  border-radius: 0 25px 0 25px;
+  border: none;
+}
+
+.hero-image {
+  width:800px;
+}
+
+.bread-image {
+  width: 500px;
+} 
+
