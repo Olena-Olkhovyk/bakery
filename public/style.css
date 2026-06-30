@@ -82,7 +82,7 @@
 
 .hero-title {
   font-family: 'LaBelle';
-  font-size: 60px;
+  font-size: clamp(2rem, 6vw, 5rem);
 }
 
 .hero-btn {
@@ -96,7 +96,8 @@
 }
 
 .hero-image {
-  width:800px;
+  max-width:800px;
+  width: 100%;
 }
 
 .bread-image {
